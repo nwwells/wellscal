@@ -53,6 +53,10 @@ app.whenReady().then(() => {
     win.webContents.send('update-message', 'Update downloaded');
   });
 
+  ipcMain.handle('app_version', () => {
+    return { version: app.getVersion() };
+  });
+
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow();
