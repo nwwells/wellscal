@@ -27,4 +27,4 @@ jobs:
       - name: Build and Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run release -- --linux --arm64
+        run: npm run release -- --linux --arm64 --armv7l
