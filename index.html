@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Wellscal</title>
@@ -16,9 +17,11 @@
             height: 100vh;
             margin: 0;
         }
+
         h1 {
             margin-bottom: 10px;
         }
+
         #version {
             position: fixed;
             bottom: 10px;
@@ -26,6 +29,7 @@
             font-size: 0.8em;
             color: #888;
         }
+
         #messages {
             margin-top: 20px;
             padding: 10px;
@@ -36,11 +40,13 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Wellscal</h1>
     <p>Welcome to your wall calendar.</p>
-    <div id="messages">Waiting for update status...</div>
-    <div id="version">v0.0.1</div>
+    <pre id="messages">Waiting for update status...</pre>
+    <div id="version">version loading...</div>
     <script src="./renderer.js"></script>
 </body>
+
 </html>
