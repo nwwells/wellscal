@@ -1,6 +1,6 @@
 {
   "name": "wellscal",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a wall calendar with touchscreen support, probably as an electron app",
   "main": "main.js",
   "scripts": {
