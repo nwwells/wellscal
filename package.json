@@ -1,6 +1,6 @@
 {
   "name": "wellscal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a wall calendar with touchscreen support, probably as an electron app",
   "main": "main.js",
   "scripts": {
@@ -21,7 +21,8 @@
       {
         "provider": "github",
         "owner": "nwwells",
-        "repo": "wellscal"
+        "repo": "wellscal",
+        "releaseType": "release"
       }
     ]
   },
