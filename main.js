@@ -53,6 +53,7 @@ app.whenReady().then(() => {
   });
   autoUpdater.on('update-downloaded', (info) => {
     win.webContents.send('update-message', 'Update downloaded');
+    autoUpdater.quitAndInstall();
   });
 
   ipcMain.handle('app_version', () => {
